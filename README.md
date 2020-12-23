@@ -36,11 +36,12 @@
  
 ## 获取京东cookie
 
-* 使用项目中的Chrome插件：`JDCookie`；
-* Chrome中拓展程序开启`开发者模式`；
-* 点击`加载已解压的拓展程序`，选择`JDCookie`目录；
-* 登录[领京豆](https://bean.m.jd.com/)；
-* 点击`JDCookie`即可拷贝京东cookie；
+* 打开新标签；
+* F12打开控制台，选择一个移动设备；
+* 输入网址 `https://plogin.m.jd.com/login/login`
+* 点击`网络`，点击网页底部的`我的`；
+* 在`网络`中找到`newhome.action`,`Headers`里找到`cookie`；
+* 复制`pt_key=xxx;pt_pin=xxx;`(分号也需要)；
 
 ## 获取Server酱SCKEY
 
